@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clsw site</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Clsw site: Are you sitting down too long?</h1>
+    <p id="msg">This site will tell you when you are sitting at your computer too long. <br>
+        When you are immobile for more than 30 consecutive minutes this site will send you a notification informing to
+        move around a little! </p>
+
+    <div class="input_watch">
+
+        <h2>Please enter the number given to you by your watch:</h2>
+
+        <div class="input_field">
+            <input type="text" id="watch_id" name="watch_id"><br><br>
+            <button class="btn-enter">Submit</button>
+        </div>
+
+    </div>
+
+    <div class="show_watch">
+        <div class="incorrect_input">
+            <h2>Incorrect input</h2>
+            <p>Please enter the number given to you by your watch.</p>
+        </div>
+
+        <div class="show_timer">
+            <h2>You have been still for</h2>
+            <p id="timer">00:00:00</p>
+        </div>
+        <br><br><br>
+        <button class="btn-return">Return</button>
+    </div>
+
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</body>
+
+</html>
